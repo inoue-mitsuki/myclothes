@@ -48,7 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   fontSize: 16),
             ),
             bottom: const TabBar(
+              //タブを押しても切り替わらない
               tabs: [
+                //カテゴリーテーブルを表示したい
                 Tab(icon: Icon(Icons.camera_alt)),
                 Tab(icon: Icon(Icons.description_outlined)),
                 Tab(icon: Icon(Icons.account_box)),
@@ -137,5 +139,11 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
     );
+
+    //categoryテーブルを定義したい
+
+    //my_dataテーブルを定義したい
+
+    //dressテーブルを定義したい
   }
 }
